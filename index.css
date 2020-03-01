@@ -13,7 +13,7 @@ body{
     background-image: url("header-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-position: center;
 }
 
 .w3-lobster {
