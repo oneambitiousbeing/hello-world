@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.close{
+    margin: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: #4CAF50;
+    border:none;
+    animation: opac 0.4s;
+    border-radius: 100%;
+
+}
+
+.close:hover{
+    color:  rgb(82, 82, 82);
+    cursor: pointer;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 10px 0 rgba(0,0,0,0.19);
+}
+
+.sign-in-container{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.sign-in{
+    width: 30vw;
+    min-width: 300px;
+    margin-top:20vh;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+
+}
+
+.sign-in-header{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.sign-in-form{
+    padding-bottom:25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.submit{
+    margin-top: 10px;
+}
+
+p.create-account{
+    float: right;
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p.create-account:hover{
+    color: #55cc59;
+    cursor: pointer;
+}
