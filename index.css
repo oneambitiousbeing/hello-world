@@ -275,6 +275,7 @@ p#footer{
     position: fixed;
     top: 0;
     padding-top: 10px;
+    z-index:2;
 }
 
 p.site-name-after{
