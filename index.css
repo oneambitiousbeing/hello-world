@@ -29,6 +29,7 @@ body{
     height: 70vh;
     width: 100%;
     transition: ease-in-out;
+    position: relative;
 }
 
 .ss1{
@@ -47,7 +48,7 @@ body{
     width: 100%;
     justify-content: center; 
     padding-top: 35px;
-    padding-bottom: 10px;  
+    position: relative; 
 }
 
 p#offer-zone{
