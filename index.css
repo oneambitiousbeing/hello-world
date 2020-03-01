@@ -1,0 +1,342 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.w3-lobster {
+    font-family: 'Lobster', serif;
+}
+
+.w3-allerta {
+    font-family: "Allerta Stencil", Sans-serif;
+}
+
+.header{
+    height: 70vh;
+    width: 100%;
+    transition: ease-in-out;
+}
+
+.ss1{
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+
+}
+
+.menu-before{
+    padding-top: 10px;
+}
+
+
+.offer-zone{
+    width: 100%;
+    justify-content: center; 
+    padding-top: 35px;
+    padding-bottom: 10px;  
+}
+
+p#offer-zone{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#arrow{
+    text-align: center;
+}
+
+.veg{
+    float: left;
+    margin: 0%;
+    height: auto;
+/*    background-color:#55cc59; */
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 50px;
+    display: inline-grid;
+}
+.non-veg{
+    float: left;
+    margin: 0%;
+    height: auto;
+  /*  background-color: lightcoral; */
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 50px;
+    display: inline-grid;
+}
+
+p.type{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.w3-card-4{
+    width:40%;
+    float: left;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 10px;
+}
+.cards{
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+p.desc{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(55, 55, 55);
+}
+
+p.site-name{
+    font-weight: bold;
+    font-size: 70px;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    text-shadow: white 2px inset;
+}
+
+.site-name-div{
+    padding-top: 255px;
+}
+
+form.search{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+input.location{
+    height: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgb(25, 25, 25);
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-box-align: center;
+    align-items: center;
+    width: 500px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    background-color: rgba(255, 255, 255, 0.73) ;
+    border: none;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 10px 0 rgba(0,0,0,0.19);
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+button.find-food{
+    background-color: #4CAF50;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    text-align: justify;
+    float: center;
+    width: 100px;
+    margin: 0px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 0px;
+    font-weight: bold;
+    padding-left: 15px;
+    border: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 10px 0 rgba(0,0,0,0.19);
+}
+.find-food:hover{
+    background-color: #55cc59;
+}
+
+
+.hidden{
+    visibility: hidden;
+    display: none;
+}
+
+
+p#menu{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+p#menu:hover{
+    color: rgb(82, 82, 82);
+    cursor: pointer;
+}
+
+.spacing{
+    height: 60vh;
+}
+
+
+.sidebar{
+    height:100%;width:15%;background-color:#55cc5988;position:fixed!important;z-index:1;overflow:auto;
+    display:none;z-index:2;
+    color: white;
+    font-weight: bold;
+    min-width: 200px;
+}
+.close{
+    font-size: 40px;
+    padding-top: 20px !important;
+    padding-bottom: 19px !important;
+    text-align: center !important;
+}
+
+.w3-button:hover{
+    background-color: #55cc59 !important;
+}
+
+.about{
+    float:center;
+    width:100%;
+    padding-bottom: 20px;
+}
+
+p#about{
+    font-size: 20px;
+}
+
+.ss2{
+    padding: 50px;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+
+.ss3{
+    background-color: white; 
+}
+
+.footer{
+    background-color: #4CAF50;
+    height: 100px;
+}
+
+p#footer{
+    font-size: 20px;
+    color: white;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+
+/* COMPONENT STYLLES TO BE UPDATED ON SCROLLING 
+  ==============================================
+*/
+
+
+.pos-top{
+    top:0;
+}
+
+.header-after{
+    height: 80px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0.01%;
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+}
+
+p.site-name-after{
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    text-shadow: white 2px inset;
+}
+
+form.search-after{
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+input.location-after{
+    height: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: rgb(25, 25, 25);
+    float: center;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-box-align: center;
+    align-items: center;
+    width: 500px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    background-color: rgba(255, 255, 255, 0.73) ;
+    border: none;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 10px 0 rgba(0,0,0,0.19);
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+button.find-food-after{
+    background-color: #4CAF50;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    text-align: justify;
+    float: center;
+    width: 100px;
+    margin: 0px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 0px;
+    font-weight: bold;
+    padding-left: 15px;
+    border: none;
+    transition-duration: 0.4s;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 10px 0 rgba(0,0,0,0.19);
+}
+.find-food-after:hover{
+    background-color: #55cc59;
+}
