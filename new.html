@@ -23,7 +23,7 @@
 
 <body>
     <nav class="sidebar w3-card w3-bar-block w3-xlarge w3-top w3-display-topright w3-animate-right" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-bar-item close">X</a>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-bar-item close">></a>
         <a href="sign_in.html" onclick="w3_close()" class="w3-bar-item w3-button">Sign In</a>
         <a href="" onclick="w3_close()" class="w3-bar-item w3-button">Places</a>
         <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
@@ -31,22 +31,29 @@
       </nav>
 
 
-    <div id="header" class = "header w3-display-container">
-        <div id="menu-before" class="menu-before w3-display-topright menu-button" onclick="w3_open()">
+    <div id="header" class = "header w3-container">
+        <div id="menu-before" class="menu-before w3-right menu-button" onclick="w3_open()">
             <p id="menu">☰</p>
         </div>
-        <div id = "name-search" class="name-search w3-display-middle">
+        <div id = "site-name-div" class="site-name-div ">
             <p id="site-name" class="site-name w3-allerta">Hungroo</p>
-        <form id="search" class="search w3-center">
+        </div>
+
+        <form id="search" class="search">
             <input id="location" type="text" name="location" placeholder="Enter your street..." class="location" />
             <button type="submit" class="find-food" id="find-food">Find food</button>
         </form>
+        <div id="menu-after" class="menu-after w3-quarter w3-green menu-button hidden">
+            <p id="menu" onclick="w3_open()">☰</p>
         </div>
         </div>
+        <div id="spacing" class="spacing hidden"></div>
 
-    <div class = "ss1 w3-container">
+    <div class = "ss1">
             <div id = "offers" class="offer-zone">
                 <p id="offer-zone" class="w3-lobster">Offer Zone</p>
+                <div id="arrow"><img id="down-arrow" src="down_arrow.png"/></div>
+                
             </div>
             <div id="veg" class="veg w3-half">
                 <p class="type w3-lobster">Veg</p>
